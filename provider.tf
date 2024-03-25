@@ -17,7 +17,7 @@
 terraform {
   required_providers {
     solacebroker = {
-      source  = "registry.terraform.io/solaceproducts/solacebroker"
+      source  = "registry.terraform.io/solaceproducts/solacebrokerapplianceappliance"
       version = "~> 0.9"
     }
   }

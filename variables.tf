@@ -86,6 +86,7 @@ variable "subscription_manager_enabled" {
   default     = null
 }
 
+
 variable "acl_profile_publish_topic_exceptions" {
   description = "A set of exceptions to the default action to take when a client using the ACL Profile publishes to a topic in the Message VPN"
   type = set(object({

@@ -1,4 +1,4 @@
-# Solace PubSub+ Software Event Broker Client Terraform Module
+# Solace PubSub+ Appliance Client Terraform Module
 
 Terraform module to provision a client identifier for [authorization](https://docs.solace.com/Security/Client-Authorization-Overview.htm) when connecting to the [Solace PubSub+ Event Broker](https://solace.com/products/event-broker/). The module also provides the option to adjust the assigned ACL profile through defining ACL profile exceptions, and to define additinal attributes for client usernames.
 
@@ -28,13 +28,13 @@ Additional optional module variables names are the same as the underlying resour
 
 | Resource name |
 |---------------|
-|[solacebroker_msg_vpn_client_username](https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest/docs/resources/msg_vpn_client_username#optional)|
-|[solacebroker_msg_vpn_authorization_group](https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest/docs/resources/msg_vpn_authorization_group#optional)|
-|[solacebroker_msg_vpn_acl_profile_publish_topic_exception](https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest/docs/resources/msg_vpn_acl_profile_publish_topic_exception#optional)|
-|[solacebroker_msg_vpn_acl_profile_subscribe_share_name_exception](https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest/docs/resources/msg_vpn_acl_profile_subscribe_share_name_exception#optional)|
-|[solacebroker_msg_vpn_acl_profile_subscribe_topic_exception](https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest/docs/resources/msg_vpn_acl_profile_subscribe_topic_exception#optional)|
-|[solacebroker_msg_vpn_acl_profile_client_connect_exception](https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest/docs/resources/msg_vpn_acl_profile_client_connect_exception#optional)|
-|[solacebroker_msg_vpn_client_username_attribute](https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest/docs/resources/msg_vpn_client_username_attribute#optional)|
+|[solacebroker_msg_vpn_client_username](https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/latest/docs/resources/msg_vpn_client_username#optional)|
+|[solacebroker_msg_vpn_authorization_group](https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/latest/docs/resources/msg_vpn_authorization_group#optional)|
+|[solacebroker_msg_vpn_acl_profile_publish_topic_exception](https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/latest/docs/resources/msg_vpn_acl_profile_publish_topic_exception#optional)|
+|[solacebroker_msg_vpn_acl_profile_subscribe_share_name_exception](https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/latest/docs/resources/msg_vpn_acl_profile_subscribe_share_name_exception#optional)|
+|[solacebroker_msg_vpn_acl_profile_subscribe_topic_exception](https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/latest/docs/resources/msg_vpn_acl_profile_subscribe_topic_exception#optional)|
+|[solacebroker_msg_vpn_acl_profile_client_connect_exception](https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/latest/docs/resources/msg_vpn_acl_profile_client_connect_exception#optional)|
+|[solacebroker_msg_vpn_client_username_attribute](https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/latest/docs/resources/msg_vpn_client_username_attribute#optional)|
 
 Most optional variables' default value is `null`, meaning that if not provided then the resource default value will be provisioned on the broker.
 
@@ -50,7 +50,7 @@ Note that the "client username" and the "authorization group" outputs are [sensi
 
 | Name | Version |
 |------|---------|
-| <a name="provider_solacebroker"></a> [solacebroker](https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest) | ~> 0.9 |
+| <a name="provider_solacebroker"></a> [solacebroker](https://registry.terraform.io/providers/solaceproducts/solacebrokerappliance/latest) | ~> 0.9 |
 
 ## Resources
 
