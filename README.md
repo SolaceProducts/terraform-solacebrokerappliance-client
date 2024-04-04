@@ -1,6 +1,6 @@
 # Solace PubSub+ Appliance Client Terraform Module
 
-Terraform module to provision a client identifier for [authorization](https://docs.solace.com/Security/Client-Authorization-Overview.htm) when connecting to the [Solace PubSub+ Event Broker](https://solace.com/products/event-broker/). The module also provides the option to adjust the assigned ACL profile through defining ACL profile exceptions, and to define additinal attributes for client usernames.
+Terraform module to provision a client identifier for [authorization](https://docs.solace.com/Security/Client-Authorization-Overview.htm) when connecting to the [Solace PubSub+ Event Broker](https://solace.com/products/event-broker/). The module also provides the option to adjust the assigned ACL profile through defining ACL profile exceptions, and to define additional attributes for client usernames.
 
 The identifier may be one of:
 * [Client username](https://docs.solace.com/Security/Configuring-Client-Usernames.htm); or
@@ -24,7 +24,7 @@ Specific use case details are provided in the [Examples](#examples).
 * `acl_profile_publish_topic_exceptions`, `acl_profile_subscribe_share_name_exceptions`, `acl_profile_subscribe_topic_exceptions`, `acl_profile_client_connect_exceptions` - Optional exceptions that may be added to modify the assigned ACL profile, to support specific needs of the client.
 * `client_username_attributes` - A set of attributes that may be defined in case of using a client username.
 
-Additional optional module variables names are the same as the underlying resource attributes. The recommended approach to determine variable name mappings is to look up the resource's documentation for matching attribute names:
+Additional optional module variable names are the same as the underlying resource attributes. The recommended approach to determine variable name mappings is to look up the resource's documentation for matching attribute names:
 
 | Resource name |
 |---------------|
@@ -74,7 +74,7 @@ Refer to the following configuration examples:
 - [Client username](examples/basic-client-username)
 - [Client username attributes](examples/client-username-attributes)
 - [Authorization group](examples/authorization-group)
-- [ACL profile exeptions](examples/acl-profile-exceptions)
+- [ACL profile exceptions](examples/acl-profile-exceptions)
 
 ## Module use recommendations
 
