@@ -1,6 +1,6 @@
 # Client Username Configuration Example
 
-Configuration in this directory creates a [client username](https://docs.solace.com/Admin/Broker-Manager/broker-manager-create-client-username.htm) on the PubSub+ event broker, leveraging the Client Terraform module.
+Configuration in this directory creates a [client username](https://docs.solace.com/Admin/Broker-Manager/broker-manager-create-client-username.htm) on the PubSub+ appliance, leveraging the Client Terraform module.
 
 The example shows how to set the sensitive `password` variable with a `.tfvars` file, as described in the [Protect sensitive input variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables#set-values-with-a-tfvars-file) Terraform tutorial.
 
@@ -34,7 +34,7 @@ This example will create the following resources:
 
 ## Running the Example
 
-### Access to a PubSub+ Event Broker
+### Access to a PubSub+ Appliance
 
 If you don't already have access to a broker, see the [Developers page](https://www.solace.dev/) for options to get started.
 

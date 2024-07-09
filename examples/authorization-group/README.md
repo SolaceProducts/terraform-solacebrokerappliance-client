@@ -1,6 +1,6 @@
 # Authorization Group Configuration Example
 
-Configuration in this directory creates an authorization group on the PubSub+ event broker, leveraging the Client Terraform module. The authorization group can be used for [OAuth](https://docs.solace.com/Security/Client-Authorization-Overview.htm#Authoriz2) or [LDAP](https://docs.solace.com/Security/Client-Authorization-Overview.htm#LDAP-Groups) authorization.
+Configuration in this directory creates an authorization group on the PubSub+ appliance, leveraging the Client Terraform module. The authorization group can be used for [OAuth](https://docs.solace.com/Security/Client-Authorization-Overview.htm#Authoriz2) or [LDAP](https://docs.solace.com/Security/Client-Authorization-Overview.htm#LDAP-Groups) authorization.
 
 ## Module Configuration in the Example
 
@@ -30,7 +30,7 @@ This example will create the following resources:
 
 ## Running the Example
 
-### Access to a PubSub+ Event Broker
+### Access to a PubSub+ Appliance
 
 If you don't already have access to a broker, see the [Developers page](https://www.solace.dev/) for options to get started.
 

@@ -1,6 +1,6 @@
 # Client Username Attributes Configuration Example
 
-This directory demonstrates the configuration of a client username with additional [client username attributes](https://docs.solace.com/Security/Configuring-Client-Usernames.htm?Highlight=client%20username%20attributes#Setting) on the PubSub+ event broker, leveraging the Client Terraform module.
+This directory demonstrates the configuration of a client username with additional [client username attributes](https://docs.solace.com/Security/Configuring-Client-Usernames.htm?Highlight=client%20username%20attributes#Setting) on the PubSub+ appliance, leveraging the Client Terraform module.
 
 ## Module Configuration in the Example
 
@@ -33,7 +33,7 @@ This example will create the following resources:
 
 ## Running the Example
 
-### Access to a PubSub+ Event Broker
+### Access to a PubSub+ Appliance
 
 If you don't already have access to a broker, see the [Developers page](https://www.solace.dev/) for options to get started.
 

@@ -1,6 +1,6 @@
 # ACL Profile Exceptions Configuration Example
 
-This directory demonstrates the configuration of a client username with [ACL profile exceptions](https://docs.solace.com/Security/Managing-Access-Control-Lists.htm) on the PubSub+ event broker, leveraging the Client Terraform module.
+This directory demonstrates the configuration of a client username with [ACL profile exceptions](https://docs.solace.com/Security/Managing-Access-Control-Lists.htm) on the PubSub+ appliance, leveraging the Client Terraform module.
 
 One set of use cases is if the assigned ACL profile is restrictive (the default value is "disallow") and individual permissions are added as exceptions. Other cases need individual exceptions to a permissive profile. Both serve the configuration of specific requirements of the client being provisioned.
 
@@ -46,7 +46,7 @@ This example will create the following resources:
 
 ## Running the Example
 
-### Access to a PubSub+ Event Broker
+### Access to a PubSub+ Appliance
 
 If you don't already have access to a broker, see the [Developers page](https://www.solace.dev/) for options to get started.
 

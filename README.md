@@ -1,6 +1,6 @@
 # Solace PubSub+ Appliance Client Terraform Module
 
-This Terraform module provisions a client identifier for [authorization](https://docs.solace.com/Security/Client-Authorization-Overview.htm) when connecting to the [Solace PubSub+ Event Broker](https://solace.com/products/event-broker/). The module also provides the option to adjust the assigned ACL profile through defining ACL profile exceptions, and to define additional attributes for client usernames.
+This Terraform module provisions a client identifier for [authorization](https://docs.solace.com/Security/Client-Authorization-Overview.htm) when connecting to the [Solace PubSub+ Appliance](https://solace.com/products/event-broker/). The module also provides the option to adjust the assigned ACL profile through defining ACL profile exceptions, and to define additional attributes for client usernames.
 
 The identifier may be one of:
 * [Client username](https://docs.solace.com/Security/Configuring-Client-Usernames.htm); or
